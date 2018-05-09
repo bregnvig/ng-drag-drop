@@ -7,12 +7,8 @@ import { NgDragDropService } from './services/ng-drag-drop.service';
 @NgModule({
   imports: [],
   declarations: [
-    Draggable,
-    Droppable
   ],
   exports: [
-    Draggable,
-    Droppable
   ]
 })
 export class NgDragDropModule {
